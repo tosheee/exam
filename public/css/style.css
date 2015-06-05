@@ -17,6 +17,7 @@ body{
 #wrapper{
     background: whitesmoke;
     width: 98%;
+    height: %;
     margin: 0 auto;
 }
 #wrapper >header{
