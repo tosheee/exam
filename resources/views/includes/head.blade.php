@@ -1,11 +1,7 @@
-
 <meta charset="UTF-8">
 <meta name="description" content="">
 <meta name="author" content="toshe">
-
-
-
-<title>toshe.com</title>
+<title>Finale Exam</title>
 
 <link rel="stylesheet" href="{{ asset('css/style.css')}}" type="text/css" />
 <style>
@@ -18,8 +14,6 @@
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCJnj2nWoM86eU8Bq2G4lSNz3udIkZT4YY&sensor=false">
 </script>
 <script type="text/javascript" src="{{ asset('js/jquery-2.1.3.js')}}" ></script>
-
-
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/general.js')}}" ></script>
 <script type="text/javascript" src="{{ asset('js/script.js')}}" ></script>

@@ -65,9 +65,18 @@ body{
   }
 #buttons-exam ul li{
 
-    color: #65C400;
+    border: solid 1px #00b3ee;
+    background:#00b3ee;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
     display: inline-block;
 
+}
+#buttons-exam ul li a{
+    font-size: 18px;
+    color: #ffffff;
 }
  #admin-menu ul li{
    text-decoration: none;
@@ -260,34 +269,14 @@ text-align: center;
 .tfclear{
 clear: both;
   }
-#footer {
-     float: center;
+.login-reg{
+    float: right;
+}
+#wrapper > footer {
+    text-align: center;
+     color: #ffffff;
     background-color: rgba(0,0,0,0.6)!important;
 }
-
-#wrapper > footer {
-    
-   background-color: rgba(0,0,0,0.6)!important;
-}
-    
-#wrapper > footer  div ul{
-  
-    margin: 0 auto;
-    display: inline-block;
-    list-style-type: none;
-}
-
-#wrapper > footer div ul li {
-  
-    display: inline-block;
-}
-
-#wrapper > footer > div ul li a{
-   
-    color: white;
-    
-     }
-
 #wrapper #wrapper-test{
     float: center;
 }

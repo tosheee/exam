@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 <body>
-    <div class="toshe"><a href="{{ asset('')}}">toshe.net</a>
+    <div class="toshe"><a href="{{ asset('')}}">Final Exam</a>
     <div id="wrapper">
 
     <header>

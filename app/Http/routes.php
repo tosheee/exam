@@ -40,7 +40,9 @@ Route::any('result/{testId?}', 'TestsExamController@result');
 Route::get('/tasks/', 'TaskExamController@index');//
 Route::get('/task/{id?}', 'TaskExamController@showItemTask');
 
-
+Route::match(['get', 'post'], '/', function(){
+    return View::make('pages.home');
+});
 //buttons////////////////////////////
 View::creator('admin.index', function($view){
     $view->with('buttons', \App\AdminButtons::all());
